@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "  Verdana, Arial, Helvetica, sans-serif;", cursive;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("pexels-fabianwiktor-994605.jpg");
+    background-size: cover;
+    min-height: 40vh;
+}
+
+header h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.card{
+    width: 70%;
+    max-width: 530px;
+    color: white;
+    margin: 20px auto ;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 14px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    transition: .4s linear;
+}
+
+.search button:hover{
+    background: #222222;
+    color: #fcfafa;
+}
+
+.search button img{
+    width: 16px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.weather-icon{
+    width: 135px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+}
+
+.wind {
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.img1{
+    width: 60px;
+}
+  
+.img2{
+    margin-left: 90px;
+    width: 60px;
+}
+
+.humidity {
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.humidity,.wind{
+    font-size: 20px;
+    margin-top: -6px;
+}
+
+.weather{
+    display: none;
+    color: rgb(23, 22, 22);
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+    color: red;
+}
+
+footer {
+    background-color: #2d75a5;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.button button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid white;
+    cursor: pointer;
+    background: transparent;
+    transition: .4s linear;
+    margin: 5px;
+}
+
+.button button a{
+    text-decoration: none;
+    color: black;
+}
+
+.button button:hover{
+    background: white;
+    color: #296ead;
+    border: 1px solid black;
+}
+
+.button button i{
+    font-size: 18px;
+}
+
+/* Width */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333;
+    /* Dark background color for the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #666;
+    /* Darker color for the scrollbar handle */
+    border-radius: 5px;
+    /* Rounded corners for the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #999;
+    /* Lighter color for the scrollbar handle on hover */
+}
